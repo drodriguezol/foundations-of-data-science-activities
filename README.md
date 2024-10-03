@@ -61,23 +61,36 @@ The transformed 'Fruit' column would now look like this:
 1
 ```
 
-# Some python methods
+# Python Methods Overview
 
-This numerical representation allows machine learning models to understand and process the data effectively.
+## Understanding Numerical Representation
 
+This numerical representation allows machine learning models to effectively understand and process data, which is crucial for building accurate predictive models.
 
-Missing Data
+## Handling Missing Data
 
-The df.fillna() method is very helpful for filling in missing values using a specified method.
-The df.dropna() method allows you to remove rows or columns containing missing values.
-Outliers
+- **Filling Missing Values:**  
+  The `df.fillna()` method is useful for filling in missing values using a specified strategy, such as forward filling or backward filling.
+  
+- **Removing Missing Values:**  
+  The `df.dropna()` method allows you to remove rows or columns that contain missing values, which can help maintain the integrity of your dataset.
 
-The df.describe() method provides insights into the distribution of your data, which can help identify potential outliers.
-Visualizing your data using a boxplot, which can be generated using the sns.boxplot() function from the Seaborn library, is a great way to identify outliers.
-Label Encoding
+## Identifying Outliers
 
-The pd.get_dummies() function is very useful for converting categorical variables into a set of binary columns.
-The LabelEncoder() from scikit-learn is a useful tool to transform categorical labels into numeric codes, often used for preparing data for machine learning models.
+- **Descriptive Statistics:**  
+  The `df.describe()` method provides insights into the distribution of your data, such as mean, median, and standard deviation, which can help identify potential outliers.
+  
+- **Visualizing Outliers:**  
+  Visualizing your data with a boxplot is an effective way to identify outliers. You can generate boxplots using the `sns.boxplot()` function from the Seaborn library.
+
+## Label Encoding
+
+- **One-Hot Encoding:**  
+  The `pd.get_dummies()` function is very useful for converting categorical variables into a set of binary columns, enabling machine learning algorithms to better interpret these features.
+  
+- **Label Encoding:**  
+  The `LabelEncoder()` from scikit-learn is a helpful tool for transforming categorical labels into numeric codes. This method is often used to prepare data for machine learning models when there are ordinal relationships between categories.
+
 
 
 
