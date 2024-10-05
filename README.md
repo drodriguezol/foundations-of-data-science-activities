@@ -50,6 +50,7 @@ Many data models and algorithms struggle with categorical data in its raw form, 
 Transforming Categorical Data
 
 **Dummy Variables**: This method uses binary values (0 or 1) to represent the presence or absence of a specific category.
+
 **Label Encoding**: This technique assigns a unique numerical value to each category, simplifying data processing and analysis. 
 
 # Label Encoding Example
@@ -124,11 +125,13 @@ Before joining datasets, validation is essential to ensure that the formatting a
 # Essential Data Visualization Resources
 
 **Tableau**: Offers a variety of software packages, a comprehensive education and tutorial platform, a vast collection of sample visualizations, articles, blogs, and white papers.
+
 **PowerBI**: Known for its popular software used globally for data visualization, it provides a free online version, guided learning, online workshops, and a growing community of data professionals.
 
 # Further Resources for Data Visualization
 
 **Information is Beautiful**: A platform that showcases data visualizations on various topics, offers blogs, newsletters, workshops, and emphasizes transparency by sharing datasets used for their visualizations.
+
 **Storytelling with Data**: Focuses on effective data communication, providing training, workshops, tools, and an engaged community for learning and feedback.
 
 
