@@ -21,18 +21,27 @@
 
 # Data Organization and Structure
 
-A database (DB) file is used for storing data, often in tables, indexes, or fields, while a CSV file is a simpler format for storing data in plain text.
-Data can be sorted, which means arranging it meaningfully for analysis, and grouped, which involves aggregating individual observations into groups.
+A **database (DB) file** is a structured system for storing data, typically in tables, indexes, or fields that allow for efficient querying and retrieval. In contrast, a **CSV (Comma Separated Values)** file is a simpler, text-based format where data is stored in plain text, making it easy to read and exchange between different systems, but lacking the complexity and capabilities of a database.
+
+**Data sorting** refers to arranging data in a meaningful order, often based on values or categories, to facilitate analysis. **Grouping** aggregates related data into categories or clusters, which is essential for summarizing data points and generating insights at a higher level.
 
 # Data Sources and Types
 
-Data sources refer to the origin of data, and they can be categorized as first-party (from your organization), second-party (directly from another organization), or third-party (aggregated data from various sources).
-Strings and integers are common data types used in programming and data analysis. Strings represent textual information, while integers represent whole numbers.
+**Data sources** refer to the origins of the data you're working with. These sources are commonly classified into:
+- **First-party data**: Collected directly from your organization (e.g., customer data from your own website).
+- **Second-party data**: Obtained directly from another organization (e.g., through partnerships or purchases).
+- **Third-party data**: Aggregated from various external sources (e.g., market research firms).
+
+In terms of **data types**, two common examples are:
+- **Strings**: Represent textual data (e.g., names, addresses).
+- **Integers**: Represent whole numbers, often used for counting or indexing (e.g., age, number of items sold).
 
 # Data Analysis Concepts
 
-Extracting involves retrieving data from sources for processing or storage, while filtering involves selecting a subset of data based on specific criteria.
-A hypothesis is a testable explanation based on evidence, guiding further investigation and analysis.
+**Extracting data** involves retrieving it from various sources—such as databases, APIs, or files—for the purpose of processing or storage in a more accessible format. **Filtering** narrows down datasets by selecting a specific subset of records based on given criteria, allowing analysts to focus on the most relevant data for their needs.
+
+A **hypothesis** in data analysis is a testable proposition based on existing knowledge or observations. It provides a framework for testing relationships between variables and validating assumptions through further investigation and analysis.
+
 
 # How to approach duplicates in data
 
