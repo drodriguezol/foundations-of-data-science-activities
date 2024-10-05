@@ -1,5 +1,25 @@
 # foundations-of-data-science
 
+## Menú
+
+- [Foundations of Data Science](#foundations-of-data-science)
+- [Data Organization and Structure](#data-organization-and-structure)
+- [Data Sources and Types](#data-sources-and-types)
+- [Data Analysis Concepts](#data-analysis-concepts)
+- [How to Approach Duplicates in Data](#how-to-approach-duplicates-in-data)
+- [What is Categorical Data?](#what-is-categorical-data)
+- [Label Encoding Example](#label-encoding-example)
+- [Python Methods Overview](#python-methods-overview)
+  - [Understanding Numerical Representation](#understanding-numerical-representation)
+  - [Handling Missing Data](#handling-missing-data)
+  - [Identifying Outliers](#identifying-outliers)
+  - [Label Encoding](#label-encoding)
+- [Data Validation: The Why and What](#data-validation-the-why-and-what)
+- [Joining Data and the Importance of Validation](#joining-data-and-the-importance-of-validation)
+- [Essential Data Visualization Resources](#essential-data-visualization-resources)
+- [Further Resources for Data Visualization](#further-resources-for-data-visualization)
+
+
 # Data Organization and Structure
 
 A database (DB) file is used for storing data, often in tables, indexes, or fields, while a CSV file is a simpler format for storing data in plain text.
