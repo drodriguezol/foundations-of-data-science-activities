@@ -1,8 +1,7 @@
-# foundations-of-data-science
+# Foundations of Data Science
 
 ## Menú
 
-- [Foundations of Data Science](#foundations-of-data-science)
 - [Data Organization and Structure](#data-organization-and-structure)
 - [Data Sources and Types](#data-sources-and-types)
 - [Data Analysis Concepts](#data-analysis-concepts)
