@@ -17,6 +17,7 @@
 - [Joining Data and the Importance of Validation](#joining-data-and-the-importance-of-validation)
 - [Essential Data Visualization Resources](#essential-data-visualization-resources)
 - [Further Resources for Data Visualization](#further-resources-for-data-visualization)
+- [Project overview: Automatidata]
 
 
 # Data Organization and Structure
@@ -142,6 +143,28 @@ Before joining datasets, validation is essential to ensure that the formatting a
 **Information is Beautiful**: A platform that showcases data visualizations on various topics, offers blogs, newsletters, workshops, and emphasizes transparency by sharing datasets used for their visualizations.
 
 **Storytelling with Data**: Focuses on effective data communication, providing training, workshops, tools, and an engaged community for learning and feedback.
+
+# Project overview: Automatidata
+
+Automatidata works with its clients to transform their unused and stored data into useful solutions, such as performance dashboards, customer-facing tools, strategic business insights, and more. They specialize in identifying a client’s business needs and utilizing their data to meet those business needs. 
+
+Automatidata is consulting for the New York City Taxi and Limousine Commission (TLC). New York City TLC is an agency responsible for licensing and regulating New York City's taxi cabs and for-hire vehicles. The agency has partnered with Automatidata to develop a regression model that helps estimate taxi fares before the ride, based on data that TLC has gathered. 
+
+The TLC data comes from over 200,000 taxi and limousine licensees, making approximately one million combined trips per day. 
+
+**Project background**
+
+Automatidata is working on the TLC project. The following tasks are needed before the team can begin the data analysis process:
+
+-EDA and cleaning
+
+-Select and build visualization(s) type
+
+-Create plots to visualize relationships between relevant variables
+
+Share your results with the Automatidata team
+
+
 
 
 
