@@ -28,7 +28,7 @@
 - [Understanding Percentiles and Quartiles](#understanding-percentiles-and-quartiles)
 - [Basic concepts of probability](#basic-concepts-of-probability)
 - [Conditional Probability](#conditional-probability)
-- [Bayes's Theorem Overview](#baye's-theorem-overview)
+- [Bayes's Theorem Overview](#bayess-theorem-overview)
 
 
 
