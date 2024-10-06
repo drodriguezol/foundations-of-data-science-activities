@@ -20,7 +20,8 @@
 - [Project overview: Automatidata](#project-overview-automatidata)
 - [Project overview: Tiktok](#project-overview-tiktok)
 - [Project overview: Waze](#project-overview-waze)
-- [What is A/B Testing?](#what-is-A/B-Testing?)
+- [What is A/B Testing?](#what-is-a/b-Testing?)
+- [Statistical Concepts in A/B Testing](#statistical-concepts-in-a/b-testing)
 
 
 # Data Organization and Structure
