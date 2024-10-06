@@ -161,6 +161,7 @@ Automatidata is working on the TLC project. The following tasks are needed befor
 - Select and build visualization(s) type
 
 - Create plots to visualize relationships between relevant variables
+- Share your results with the Automatidata team
 
 
 
