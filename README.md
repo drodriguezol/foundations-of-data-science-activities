@@ -19,6 +19,7 @@
 - [Further Resources for Data Visualization](#further-resources-for-data-visualization)
 - [Project overview: Automatidata](#project-overview-automatidata)
 - [Project overview: Tiktok](#project-overview-tiktok)
+- [Project overview: Tiktok](#project-overview-waze)
 
 
 # Data Organization and Structure
