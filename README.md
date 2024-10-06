@@ -383,21 +383,13 @@ Discrete probability distributions describe the probabilities of the outcomes of
 
 ## Common Discrete Distributions
 
-1. **Binomial Distribution**:
-   - Models the number of successes in a fixed number of independent Bernoulli trials (e.g., flipping a coin).
-   - Defined by two parameters: \( n \) (number of trials) and \( p \) (probability of success).
+- **Uniform Distribution**: Imagine rolling a fair die. Each face (1-6) has an equal chance of landing face up. That's a uniform distribution - all outcomes are equally likely.
 
-2. **Poisson Distribution**:
-   - Models the number of events occurring within a fixed interval of time or space, given a known average rate.
-   - Defined by a single parameter \( \lambda \) (average rate of occurrence).
+- **Binomial Distribution**: Think of flipping a coin multiple times. Each flip is independent (one flip doesn't affect the next). The binomial distribution helps us calculate the probability of getting a specific number of heads (or tails) in a set number of flips.
 
-3. **Geometric Distribution**:
-   - Models the number of trials until the first success in a series of independent Bernoulli trials.
-   - Defined by the probability of success \( p \).
+- **Bernoulli Distribution**:  This is like a single flip in our coin example. It represents the probability of success or failure in a single trial.  
 
-4. **Uniform Distribution**:
-   - All outcomes are equally likely within a defined range.
-   - Defined by the minimum and maximum values.
+- **Poisson Distribution**: Imagine you work at a call center. The Poisson distribution helps you predict the probability of receiving a specific number of calls within an hour, knowing the average number of calls you get per hour.
 
 
 
