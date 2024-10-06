@@ -301,6 +301,8 @@ Real Estate Example: Standard deviation helps understand price variations. For i
 
 - A percentile reveals the percentage of data falling below a specific value, dividing data into 100 equal parts for relative positioning.
 - Quartiles divide data into four equal parts, with Q1, Q2 (the median), and Q3 representing the 25th, 50th, and 75th percentiles, respectively.
+
+  
 **Interquartile Range (IQR) and Five Number Summary**
 
 - The IQR represents the range between the first and third quartiles (Q3 - Q1), indicating the spread of the middle 50% of the data.
