@@ -163,6 +163,22 @@ Automatidata is working on the TLC project. The following tasks are needed befor
 - Create plots to visualize relationships between relevant variables
 - Share your results with the Automatidata team
 
+**Specific project deliverables**
+
+complete the following deliverables:
+
+- Course 3 PACE Strategy Document to consider questions, details, and action items for each stage of the project scenario
+
+- Answer the questions in the Jupyter notebook project file
+
+- Create a Jupyter notebook of full EDA
+
+- Create a Tableau visualization showing two important variables
+
+- Write an executive summary of results and include a visualization
+
+
+
 
 
 
