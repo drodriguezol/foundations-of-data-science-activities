@@ -20,6 +20,7 @@
 - [Project overview: Automatidata](#project-overview-automatidata)
 - [Project overview: Tiktok](#project-overview-tiktok)
 - [Project overview: Waze](#project-overview-waze)
+- [What is A/B Testing?](#what-is-A/B-Testing?)
 
 
 # Data Organization and Structure
@@ -256,6 +257,16 @@ complete the following deliverables:
 
 - Write an executive summary of results and include a visualization
 
+
+
+# What is A/B Testing?
+
+- A/B testing is a method used to compare two versions of something (like a webpage or an email) to determine which one performs better based on specific metrics.
+- Businesses use A/B testing to optimize their products and improve customer experience by making data-informed decisions.
+# Statistical Concepts in A/B Testing
+
+- **Sampling**: Involves selecting a smaller group (a sample) from a larger population. A/B testing uses samples to make inferences about the entire user base.
+- **Statistical Significance**: Helps determine if the observed differences between versions A and B are due to actual changes or random chance, ensuring that decisions are based on meaningful results.
   
 
 
