@@ -17,7 +17,7 @@
 - [Joining Data and the Importance of Validation](#joining-data-and-the-importance-of-validation)
 - [Essential Data Visualization Resources](#essential-data-visualization-resources)
 - [Further Resources for Data Visualization](#further-resources-for-data-visualization)
-- [Project overview: Automatidata](#Project-overview:-Automatidata)
+- [Project overview: Automatidata](#project-overview-automatidata)
 
 
 # Data Organization and Structure
