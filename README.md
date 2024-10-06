@@ -370,17 +370,6 @@ This theorem allows for the transformation of prior beliefs into updated probabi
 
 Discrete probability distributions describe the probabilities of the outcomes of a discrete random variable, which can take on a countable number of values. These distributions are essential in statistics and probability theory for modeling various real-world scenarios.
 
-## Key Features
-
-- **Discrete Random Variable**: A variable that can take on distinct, separate values, such as the number of heads in coin flips or the roll of a die.
-  
-- **Probability Mass Function (PMF)**: A function that gives the probability of each possible value of a discrete random variable. It satisfies the properties:
-  - \( P(X = x_i) \geq 0 \) for all values \( x_i \).
-  - The sum of probabilities over all possible outcomes equals 1:
-    \[
-    \sum_{i} P(X = x_i) = 1
-    \]
-
 ## Common Discrete Distributions
 
 - **Uniform Distribution**: Imagine rolling a fair die. Each face (1-6) has an equal chance of landing face up. That's a uniform distribution - all outcomes are equally likely.
