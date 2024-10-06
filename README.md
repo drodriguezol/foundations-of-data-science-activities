@@ -177,7 +177,38 @@ complete the following deliverables:
 
 - Write an executive summary of results and include a visualization
 
+# Project overview: Tiktok
 
+At TikTok, our mission is to inspire creativity and bring joy. Our employees lead with curiosity and move at the speed of culture. Combined with our company's flat structure, you'll be given dynamic opportunities to make a real impact on a rapidly expanding company and grow your career.
+
+TikTok users have the ability to submit reports that identify videos and comments that contain user claims. These reports identify content that needs to be reviewed by moderators. The process generates a large number of user reports that are challenging to consider in a timely manner. 
+
+TikTok is working on the development of a predictive model that can determine whether a video contains a claim or offers an opinion. With a successful prediction model, TikTok can reduce the backlog of user reports and prioritize them more efficiently.
+
+**Project background**
+
+Automatidata is working on the TLC project. The following tasks are needed before the team can begin the data analysis process:
+
+- EDA and cleaning
+
+- Select and build visualization(s) type
+
+- Create plots to visualize relationships between relevant variables
+- Share your results with the Automatidata team
+
+**Specific project deliverables**
+
+complete the following deliverables:
+
+- Course 3 PACE Strategy Document to consider questions, details, and action items for each stage of the project scenario
+
+- Answer the questions in the Jupyter notebook project file
+
+- Create a Jupyter notebook of full EDA
+
+- Create a Tableau visualization showing two important variables
+
+- Write an executive summary of results and include a visualization
 
 
 
