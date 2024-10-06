@@ -1,6 +1,4 @@
----
-markdown: kramdown
----
+
 # Foundations of Data Science
 
 ## Menú
@@ -30,7 +28,7 @@ markdown: kramdown
 - [Understanding Percentiles and Quartiles](#understanding-percentiles-and-quartiles)
 - [Basic concepts of probability](#basic-concepts-of-probability)
 - [Conditional Probability](#conditional-probability)
-- [Bayes's Theorem Overview](#bayes-theorem-overview)
+- [Bayes's Theorem Overview](#baye's-theorem-overview)
 
 
 
