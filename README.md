@@ -22,6 +22,7 @@
 - [Project overview: Waze](#project-overview-waze)
 - [What is A/B Testing?](#what-is-ab-testing)
 - [Statistical Concepts in A/B Testing](#statistical-concepts-in-ab-testing)
+- [Understanding Central Tendency](#understanding-central-tendency)
 
 
 
@@ -269,7 +270,19 @@ complete the following deliverables:
 
 - **Sampling**: Involves selecting a smaller group (a sample) from a larger population. A/B testing uses samples to make inferences about the entire user base.
 - **Statistical Significance**: Helps determine if the observed differences between versions A and B are due to actual changes or random chance, ensuring that decisions are based on meaningful results.
-  
+
+# Understanding Central Tendency
+
+Measures of central tendency help you understand the central point of a dataset, providing a single value that represents the typical value.
+The mean is the average, the median is the middle value when ordered, and the mode is the most frequent value.
+- **Mean vs. Median**
+
+The mean is greatly affected by outliers (extreme values), while the median is more resistant to them.
+Use the median when outliers are present, as it gives a more accurate representation of the typical value in such cases.
+-**Using the Mode**
+
+The mode is particularly useful for categorical data (like survey responses) as it highlights the most common category.
+For example, in a survey on employee satisfaction, the mode would show the most frequent response, giving insights into overall sentiment.
 
 
 
