@@ -24,6 +24,7 @@
 - [Statistical Concepts in A/B Testing](#statistical-concepts-in-ab-testing)
 - [Understanding Central Tendency](#understanding-central-tendency)
 - [Understanding Measures of Dispersion](#understanding-measures-of-dispersion)
+- [Understanding Percentiles and Quartiles](#understanding-percentiles-and-quartiles)
 
 
 
@@ -295,6 +296,16 @@ For example, in a survey on employee satisfaction, the mode would show the most 
 **Practical Application of Standard Deviation**
 
 Real Estate Example: Standard deviation helps understand price variations. For instance, two neighborhoods might have the same average rent, but different standard deviations. A higher standard deviation indicates a wider price range in that neighborhood.
+
+# Understanding Percentiles and Quartiles
+
+- A percentile reveals the percentage of data falling below a specific value, dividing data into 100 equal parts for relative positioning.
+- Quartiles divide data into four equal parts, with Q1, Q2 (the median), and Q3 representing the 25th, 50th, and 75th percentiles, respectively.
+**Interquartile Range (IQR) and Five Number Summary**
+
+- The IQR represents the range between the first and third quartiles (Q3 - Q1), indicating the spread of the middle 50% of the data.
+- The five-number summary (minimum, Q1, median/Q2, Q3, maximum) provides a concise overview of the data's distribution.
+
 
 
 
