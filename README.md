@@ -17,7 +17,7 @@
 - [Joining Data and the Importance of Validation](#joining-data-and-the-importance-of-validation)
 - [Essential Data Visualization Resources](#essential-data-visualization-resources)
 - [Further Resources for Data Visualization](#further-resources-for-data-visualization)
-- [Project overview: Automatidata]
+- [Project overview: Automatidata](#Project overview: Automatidata)
 
 
 # Data Organization and Structure
@@ -156,13 +156,12 @@ The TLC data comes from over 200,000 taxi and limousine licensees, making approx
 
 Automatidata is working on the TLC project. The following tasks are needed before the team can begin the data analysis process:
 
--EDA and cleaning
+- EDA and cleaning
 
--Select and build visualization(s) type
+- Select and build visualization(s) type
 
--Create plots to visualize relationships between relevant variables
+- Create plots to visualize relationships between relevant variables
 
-Share your results with the Automatidata team
 
 
 
