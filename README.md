@@ -30,6 +30,7 @@
 - [Conditional Probability](#conditional-probability)
 - [Bayes's Theorem Overview](#bayess-theorem-overview)
 - [Discrete Probability Distributions](#discrete-probability-distributions)
+- [Continuous Probability Distributions](#continuous-probability-distributions)
 
 
 
@@ -379,6 +380,21 @@ Discrete probability distributions describe the probabilities of the outcomes of
 - **Bernoulli Distribution**:  This is like a single flip in our coin example. It represents the probability of success or failure in a single trial.  
 
 - **Poisson Distribution**: Imagine you work at a call center. The Poisson distribution helps you predict the probability of receiving a specific number of calls within an hour, knowing the average number of calls you get per hour.
+
+# Continuous Probability Distributions
+
+- Unlike discrete variables with distinct values, continuous variables can take on any value within a range, represented by a curve called a Probability Density Function (PDF).
+- The probability of a continuous variable falling within a specific interval is represented by the area under the curve (PDF) for that interval.
+  
+**The Normal Distribution**
+
+- The normal distribution, also known as the bell curve, is symmetrical with the mean at its center.
+- The empirical rule helps us understand the spread of data in a normal distribution: 68% within one standard deviation, 95% within two, and 99.7% within three.
+- 
+**Significance of the Normal Distribution**
+
+- The normal distribution is frequently observed in real-world datasets, making it a valuable tool for data professionals.
+- Understanding it is crucial for advanced statistical analyses like hypothesis testing and regression analysis.
 
 
 
