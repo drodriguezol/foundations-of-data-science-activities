@@ -26,6 +26,8 @@
 - [Understanding Measures of Dispersion](#understanding-measures-of-dispersion)
 - [Understanding Percentiles and Quartiles](#understanding-percentiles-and-quartiles)
 - [Basic concepts of probability](#basic-concepts-of-probability)
+- [Conditional Probability](#conditional-probability)
+- [Bayes's Theorem Overview](#bayes-theorem-overview)
 
 
 
@@ -331,6 +333,37 @@ Use this to find the probability of either one event OR another happening. You s
 - Multiplication Rule (for independent events)
 This rule comes in handy when you want to know the probability of two events happening one AFTER the other. You calculate this by multiplying the probabilities of each individual event.
 
+# Conditional Probability
+conditional probability refers to the probability of an event occurring given that another event has already occurred. For example, when you draw an ace from a deck of playing cards, this changes the probability of drawing a second ace from the same deck. 
+
+# Bayes's Theorem Overview
+
+Bayes's theorem is a statistical method that updates the probability of an event based on new information. It differentiates between two types of probabilities:
+
+- **Prior Probability**: The initial probability of an event before new data is considered.
+- **Posterior Probability**: The updated probability of an event after incorporating new data.
+
+Bayes's theorem enables the calculation of posterior probability by adjusting prior probability with new evidence. For example, in a medical context, if a condition is associated with age, you can determine the probability of a person having that condition based on their age group, transforming the prior probability into a more accurate posterior probability.
+
+## The Theorem
+
+Bayes's theorem states:
+
+\[
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+\]
+
+Where:
+- \(P(A|B)\): Posterior probability (the probability of event A given event B).
+- \(P(B|A)\): Likelihood (the probability of event B given event A).
+- \(P(A)\): Prior probability (the probability of event A).
+- \(P(B)\): Evidence (the probability of event B).
+
+In simpler terms, the theorem can be restated as:
+
+**Posterior = Likelihood * Prior / Evidence**
+
+This theorem allows for the transformation of prior beliefs into updated probabilities by incorporating new data, thereby providing a more accurate assessment based on relevant evidence.
 
 
 
