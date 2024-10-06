@@ -279,7 +279,8 @@ The mean is the average, the median is the middle value when ordered, and the mo
 
 The mean is greatly affected by outliers (extreme values), while the median is more resistant to them.
 Use the median when outliers are present, as it gives a more accurate representation of the typical value in such cases.
--**Using the Mode**
+
+- **Using the Mode**
 
 The mode is particularly useful for categorical data (like survey responses) as it highlights the most common category.
 For example, in a survey on employee satisfaction, the mode would show the most frequent response, giving insights into overall sentiment.
