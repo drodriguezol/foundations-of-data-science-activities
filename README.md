@@ -212,6 +212,52 @@ complete the following deliverables:
 - Write an executive summary of results and include a visualization
 
 
+# Project overview: Waze
+
+Waze’s free navigation app makes it easier for drivers around the world to get to where they want to go. Waze’s community of map editors, beta testers, translators, partners, and users helps make each drive better and safer. Waze partners with cities, transportation authorities, broadcasters, businesses, and first responders to help as many people as possible travel more efficiently and safely. 
+
+You’ll collaborate with your Waze teammates to analyze and interpret data, generate valuable insights, and help leadership make informed business decisions. Your team is about to start a new project to help prevent user churn on the Waze app. Churn quantifies the number of users who have uninstalled the Waze app or stopped using the app. This project focuses on monthly user churn. 
+
+This project is part of a larger effort at Waze to increase growth. Typically, high retention rates indicate satisfied users who repeatedly use the Waze app over time. Developing a churn prediction model will help prevent churn, improve user retention, and grow Waze’s business. An accurate model can also help identify specific factors that contribute to churn and answer questions such as: 
+
+Who are the users most likely to churn?
+
+Why do users churn? 
+
+When do users churn? 
+
+For example, if Waze can identify a segment of users who are at high risk of churning, Waze can proactively engage these users with special offers to try and retain them. Otherwise, Waze may lose these users without knowing why. 
+
+Your insights will help Waze leadership optimize the company’s retention strategy, enhance user experience, and make data-driven decisions about product development.
+
+**Project background**
+
+Automatidata is working on the TLC project. The following tasks are needed before the team can begin the data analysis process:
+
+- EDA and cleaning
+
+- Select and build visualization(s) type
+
+- Create plots to visualize relationships between relevant variables
+- Share your results with the Automatidata team
+
+**Specific project deliverables**
+
+complete the following deliverables:
+
+- Course 3 PACE Strategy Document to consider questions, details, and action items for each stage of the project scenario
+
+- Answer the questions in the Jupyter notebook project file
+
+- Create a Jupyter notebook of full EDA
+
+- Create a Tableau visualization showing two important variables
+
+- Write an executive summary of results and include a visualization
+
+  
+
+
 
 
 
