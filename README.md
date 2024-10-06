@@ -25,6 +25,7 @@
 - [Understanding Central Tendency](#understanding-central-tendency)
 - [Understanding Measures of Dispersion](#understanding-measures-of-dispersion)
 - [Understanding Percentiles and Quartiles](#understanding-percentiles-and-quartiles)
+- [Basic concepts of probability](#basic-concepts-of-probability)
 
 
 
@@ -307,6 +308,28 @@ Real Estate Example: Standard deviation helps understand price variations. For i
 
 - The IQR represents the range between the first and third quartiles (Q3 - Q1), indicating the spread of the middle 50% of the data.
 - The five-number summary (minimum, Q1, median/Q2, Q3, maximum) provides a concise overview of the data's distribution.
+
+
+# Basic concepts of probability
+
+**Types of Events**
+
+- Mutually Exclusive Events
+These events cannot happen simultaneously. Think of flipping a coin – you can't land on both heads and tails in one toss.
+
+- Independent Events
+The outcome of one event doesn't impact the other. Rolling a die twice exemplifies this, as the first roll doesn't influence the second.
+
+**Rules of Probability**
+
+- Complement Rule
+This rule helps determine the probability of an event NOT happening. It's based on the idea that the probability of an event occurring plus the probability of it not occurring always equals 1.
+
+- Addition Rule (for mutually exclusive events)
+Use this to find the probability of either one event OR another happening. You simply add the probabilities of each individual event.
+
+- Multiplication Rule (for independent events)
+This rule comes in handy when you want to know the probability of two events happening one AFTER the other. You calculate this by multiplying the probabilities of each individual event.
 
 
 
