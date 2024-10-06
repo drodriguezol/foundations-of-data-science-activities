@@ -29,6 +29,7 @@
 - [Basic concepts of probability](#basic-concepts-of-probability)
 - [Conditional Probability](#conditional-probability)
 - [Bayes's Theorem Overview](#bayess-theorem-overview)
+- [Discrete Probability Distributions](#discrete-probability-distributions)
 
 
 
@@ -364,6 +365,40 @@ In simpler terms, the theorem can be restated as:
 **Posterior = Likelihood * Prior / Evidence**
 
 This theorem allows for the transformation of prior beliefs into updated probabilities by incorporating new data, thereby providing a more accurate assessment based on relevant evidence.
+
+# Discrete Probability Distributions
+
+Discrete probability distributions describe the probabilities of the outcomes of a discrete random variable, which can take on a countable number of values. These distributions are essential in statistics and probability theory for modeling various real-world scenarios.
+
+## Key Features
+
+- **Discrete Random Variable**: A variable that can take on distinct, separate values, such as the number of heads in coin flips or the roll of a die.
+  
+- **Probability Mass Function (PMF)**: A function that gives the probability of each possible value of a discrete random variable. It satisfies the properties:
+  - \( P(X = x_i) \geq 0 \) for all values \( x_i \).
+  - The sum of probabilities over all possible outcomes equals 1:
+    \[
+    \sum_{i} P(X = x_i) = 1
+    \]
+
+## Common Discrete Distributions
+
+1. **Binomial Distribution**:
+   - Models the number of successes in a fixed number of independent Bernoulli trials (e.g., flipping a coin).
+   - Defined by two parameters: \( n \) (number of trials) and \( p \) (probability of success).
+
+2. **Poisson Distribution**:
+   - Models the number of events occurring within a fixed interval of time or space, given a known average rate.
+   - Defined by a single parameter \( \lambda \) (average rate of occurrence).
+
+3. **Geometric Distribution**:
+   - Models the number of trials until the first success in a series of independent Bernoulli trials.
+   - Defined by the probability of success \( p \).
+
+4. **Uniform Distribution**:
+   - All outcomes are equally likely within a defined range.
+   - Defined by the minimum and maximum values.
+
 
 
 
