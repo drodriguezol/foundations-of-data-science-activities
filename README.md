@@ -23,6 +23,7 @@
 - [What is A/B Testing?](#what-is-ab-testing)
 - [Statistical Concepts in A/B Testing](#statistical-concepts-in-ab-testing)
 - [Understanding Central Tendency](#understanding-central-tendency)
+- [Understanding Measures of Dispersion](#understanding-measures-of-dispersion)
 
 
 
@@ -284,6 +285,16 @@ Use the median when outliers are present, as it gives a more accurate representa
 
 The mode is particularly useful for categorical data (like survey responses) as it highlights the most common category.
 For example, in a survey on employee satisfaction, the mode would show the most frequent response, giving insights into overall sentiment.
+
+# Understanding Measures of Dispersion
+
+- **Range**: This is the simplest measure, calculated by subtracting the smallest value from the largest value in your dataset. It gives a quick snapshot of the data spread.
+  
+- **Variance and Standard Deviation**: Variance represents the average squared difference of each data point from the mean. Standard deviation, a more interpretable measure, is calculated as the square root of the variance.
+  
+**Practical Application of Standard Deviation**
+
+Real Estate Example: Standard deviation helps understand price variations. For instance, two neighborhoods might have the same average rent, but different standard deviations. A higher standard deviation indicates a wider price range in that neighborhood.
 
 
 
