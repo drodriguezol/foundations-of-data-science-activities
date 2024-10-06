@@ -1,3 +1,6 @@
+---
+markdown: kramdown
+---
 # Foundations of Data Science
 
 ## Menú
@@ -349,7 +352,7 @@ Bayes's theorem enables the calculation of posterior probability by adjusting pr
 
 Bayes's theorem states:
 
-\[ P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)} \]
+$$ P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)} $$
 
 
 Where:
