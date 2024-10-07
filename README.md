@@ -76,9 +76,9 @@
   - [Ridge](#ridge)
   - [Elastic Net](#elastic-net)
 - [Understanding Chi-Squared Tests](#understanding-chi-squared-tests)
-- [Types of Chi-Squared Tests](#types-of-chi-squared-tests)
-  - [Chi-Squared Goodness of Fit Test](#chi-squared-goodness-of-fit-test)
-  - [Chi-Squared Test for Independence](#chi-squared-test-for-independence)
+  - [Types of Chi-Squared Tests](#types-of-chi-squared-tests)
+    - [Chi-Squared Goodness of Fit Test](#chi-squared-goodness-of-fit-test)
+    - [Chi-Squared Test for Independence](#chi-squared-test-for-independence)
 
 
 
