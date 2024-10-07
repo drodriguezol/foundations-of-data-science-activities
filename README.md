@@ -75,6 +75,10 @@
   - [Lasso](#lasso)
   - [Ridge](#ridge)
   - [Elastic Net](#elastic-net)
+- [Understanding Chi-Squared Tests](#understanding-chi-squared-tests)
+ - [Types of Chi-Squared Tests](#types-of-chi-squared-tests)
+  - [Chi-Squared Goodness of Fit Test](#chi-squared-goodness-of-fit-test)
+  - [Chi-Squared Test for Independence](#chi-squared-test-for-independence)
 
 
 
@@ -729,6 +733,17 @@ Ridge regression uses L2 regularization, adding a penalty equal to the square of
 Elastic Net combines the penalties of both Lasso and Ridge regression, using both L1 and L2 regularization. This technique is useful in situations where there are multiple correlated predictors, allowing the model to retain relevant features while performing variable selection. Elastic Net strikes a balance between the sparsity of Lasso and the stability of Ridge, making it a versatile choice in many applications.
 
 These regularization techniques are essential tools in a data scientist's toolkit, helping to improve model performance by addressing the challenges of overfitting and ensuring that models can generalize well to new data.
+
+# Understanding Chi-Squared Tests
+
+Chi-squared tests help determine if observed data aligns with expected distributions, helping us understand if differences between observed and expected values are statistically significant or due to random chance. These tests are valuable for data professionals as they provide actionable insights from data, leading to more informed decision-making within organizations.
+
+## Types of Chi-Squared Tests
+
+- **Chi-Squared Goodness of Fit Test**: This test assesses whether an observed categorical variable, with multiple possible levels, aligns with an anticipated distribution. It compares the observed frequencies of categories to the expected frequencies under the null hypothesis.
+
+- **Chi-Squared Test for Independence**: This test investigates whether two categorical variables are related or independent of each other. It evaluates the frequencies of observations in a contingency table to determine if the variables are associated or if their distributions are independent.
+
 
 
 
