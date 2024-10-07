@@ -37,6 +37,7 @@
 - [Probability Sampling Overview](#probability-sampling-overview)
 - [What is the Central Limit Theorem?](#what-is-the-central-limit-theorem)
 - [Understanding Sampling Distribution](#understanding-sampling-distribution)
+- [Confidence Interval Interpretation](#confidence-interval-interpretation)
 
 
 
@@ -495,6 +496,16 @@ Consider a population of adults in a city where the average height is unknown. B
 - If you take 30 samples, you might observe that the means vary slightly due to random sampling. However, as per the Central Limit Theorem, the distribution of these means will approximate a normal distribution as you increase the number of samples, even if the original population's height distribution is skewed.
 
 - The standard error can be calculated to understand how much the sample means deviate from the population mean, providing valuable insights for further statistical analysis.
+
+# Confidence Interval Interpretation
+
+A 95% confidence interval means that if you repeatedly sampled the population and calculated the confidence interval each time, 95% of those intervals would contain the true population mean. It's important to remember that the confidence level refers to the long-term success rate of the method, not the probability of a specific interval containing the true mean.
+
+### Common Misinterpretations
+
+- It's incorrect to say there's a 95% probability the population mean falls within a specific 95% confidence interval. The population mean is a fixed value, not a variable.
+- A 95% confidence interval doesn't mean that 95% of the data values in the population fall within that interval.
+
 
 
 
