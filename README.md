@@ -549,9 +549,9 @@ Unlike linear regression, which deals with continuous data and straight lines, l
 
 **Simple linear regression** estimates the linear relationship between a continuous dependent variable and one independent variable using a line defined by:
 
-\[
+$$\[
 \hat{y} = \hat{\beta}_0 + \hat{\beta}_1 X
-\]
+\]$$
 
 **Ordinary least squares (OLS)** is a common technique for calculating the coefficients of a linear regression model by minimizing the sum of squared residuals (SSR).
 
@@ -559,9 +559,9 @@ Unlike linear regression, which deals with continuous data and straight lines, l
 
 The sum of squared residuals can be calculated using the formula:
 
-\[
+$$\[
 \sum_{i=1}^N (y_i - \hat{y}_i)^2
-\]
+\]$$
 
 To find the line of best fit, you can try different values for \(\hat{\beta}_0\) and \(\hat{\beta}_1\) and calculate the sum of squared residuals for each line.
 
