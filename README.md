@@ -52,6 +52,13 @@
 - [Assumptions of Simple Linear Regression](#assumptions-of-simple-linear-regression)
   - [Checking for Assumption Violations](#checking-for-assumption-violations)
   - [Addressing Violations](#addressing-violations)
+- [Understanding Key Metrics](#understanding-key-metrics)
+  - [R² (Coefficient of Determination)](#r²-coefficient-of-determination)
+  - [MSE (Mean Squared Error)](#mse-mean-squared-error)
+- [Alternative Evaluation Metrics](#alternative-evaluation-metrics)
+  - [MAE (Mean Absolute Error)](#mae-mean-absolute-error)
+  - [AIC (Akaike Information Criterion) & BIC (Bayesian Information Criterion)](#aic-akaike-information-criterion--bic-bayesian-information-criterion)
+
 
 
 
@@ -613,6 +620,19 @@ The errors, represented by residuals, should follow a normal distribution.
 
 - **Normality**:  
   Transforming the outcome variable, often using a logarithmic transformation, can help address normality concerns.
+
+## Understanding Key Metrics
+
+- **R² (Coefficient of Determination)**: Measures the proportion of variation in the dependent variable (Y) explained by the independent variable(s) (X), ranging from 0 to 1. For example, an R² of 0.85 indicates that 85% of the variation in Y is explained by X.
+
+- **MSE (Mean Squared Error)**: Calculates the average of the squared differences between predicted and actual values, making it sensitive to large errors or outliers.
+
+## Alternative Evaluation Metrics
+
+- **MAE (Mean Absolute Error)**: Averages the absolute differences between predicted and actual values, making it less sensitive to outliers compared to MSE.
+
+- **AIC (Akaike Information Criterion) & BIC (Bayesian Information Criterion)**: Additional metrics you may encounter, providing further insights into model performance.
+
 
 
 
