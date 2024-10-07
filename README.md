@@ -49,6 +49,9 @@
   - [Correlation](#correlation)
   - [Calculating Correlation (r)](#calculating-correlation-r)
   - [Regression and Its Equation](#regression-and-its-equation)
+- [Assumptions of Simple Linear Regression](#assumptions-of-simple-linear-regression)
+  - [Checking for Assumption Violations](#checking-for-assumption-violations)
+  - [Addressing Violations](#addressing-violations)
 
 
 
@@ -586,6 +589,31 @@ The denominator standardizes the covariance, making r a unitless measure.
 The regression line estimates the average Y value for each X value, minimizing error in predicting Y from X.  
 The slope of this line is calculated using r and the standard deviations of X and Y.  
 The point representing the means of X and Y always lies on the regression line.
+
+## Assumptions of Simple Linear Regression
+
+### Linearity
+The relationship between the predictor variable (X) and the outcome variable (Y) should be linear.
+
+### Normality
+The errors, represented by residuals, should follow a normal distribution.
+
+### Checking for Assumption Violations
+
+- **Linearity**:  
+  Visualize the data using a scatterplot with the independent variable on the x-axis and the dependent variable on the y-axis.
+
+- **Normality**:  
+  After building the model, create a Q-Q plot or a histogram of the residuals to assess their distribution.
+
+### Addressing Violations
+
+- **Linearity**:  
+  Consider transforming one or both variables (e.g., using a logarithmic transformation) to achieve linearity.
+
+- **Normality**:  
+  Transforming the outcome variable, often using a logarithmic transformation, can help address normality concerns.
+
 
 
 
