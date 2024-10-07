@@ -39,6 +39,7 @@
 - [Understanding Sampling Distribution](#understanding-sampling-distribution)
 - [Confidence Interval Interpretation](#confidence-interval-interpretation)
 - [Large vs. Small Sample Sizes](#large-vs-small-sample-sizes)
+- [Mathematical Linear Regression](#mathematical-linear-regression)
 
 
 
@@ -517,6 +518,15 @@ For small sample sizes (less than 30), we use the t-distribution and t-scores to
 
 We use the t-distribution and t-scores to calculate the margin of error.  
 The degrees of freedom for the t-distribution is calculated as the sample size minus 1.
+
+
+# Mathematical Linear Regression
+
+**Linear Regression Basics**
+
+- Goal: To define a mathematical relationship (typically a straight line) that best represents the relationship between the independent variable (X) and the dependent variable (Y).
+- Parameters: These are the values (slope and intercept) that define the line. We estimate these parameters from our sample data.
+- Ordinary Least Squares (OLS): A common method used to estimate the regression coefficients (slope and intercept) by minimizing the difference between the observed values and the values predicted by the line.
 
 
 
