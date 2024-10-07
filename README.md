@@ -34,6 +34,7 @@
 - [Z-Score](#z-score)
 - [Understanding Population and Sample](#understanding-population-and-sample)
 - [Representative Samples for Accurate Insights](#representative-samples-for-accurate-insights)
+- [Probability Sampling Overview](#probability-sampling-overview)
 
 
 
@@ -438,6 +439,22 @@ Data professionals often work with samples because collecting data from an entir
 A representative sample accurately reflects the characteristics of the population, ensuring that conclusions drawn from the sample are applicable to the entire population. 
 
 Non-representative samples can lead to inaccurate conclusions and predictions, highlighting the importance of using appropriate sampling methods to minimize bias.
+
+# Probability Sampling Overview
+
+Probability sampling relies on random selection, ensuring every member of a population has an equal chance of being included in the sample. This method helps minimize bias and increases the reliability of findings, making it a cornerstone of sound statistical analysis.
+
+## Types of Probability Sampling
+
+- **Simple random sampling**: Every member of the population has an equal chance of selection.
+- **Stratified random sampling**: The population is divided into groups (strata), and members are randomly selected from each group.
+- **Cluster random sampling**: The population is divided into clusters, and all members of randomly selected clusters are included in the sample.
+- **Systematic random sampling**: Members of the population are put into an ordered sequence, and selection is done at regular intervals from a random starting point.
+
+## Advantages of Probability Sampling
+
+Probability sampling techniques help ensure that the sample accurately represents the population, leading to more valid and generalizable results.
+
 
 
 
