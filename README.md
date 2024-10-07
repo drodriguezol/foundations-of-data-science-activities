@@ -40,6 +40,7 @@
 - [Confidence Interval Interpretation](#confidence-interval-interpretation)
 - [Large vs. Small Sample Sizes](#large-vs-small-sample-sizes)
 - [Mathematical Linear Regression](#mathematical-linear-regression)
+- [Logistic Regression Overview](#logistic-regression-overview)
 
 
 
@@ -527,6 +528,18 @@ The degrees of freedom for the t-distribution is calculated as the sample size m
 - Goal: To define a mathematical relationship (typically a straight line) that best represents the relationship between the independent variable (X) and the dependent variable (Y).
 - Parameters: These are the values (slope and intercept) that define the line. We estimate these parameters from our sample data.
 - Ordinary Least Squares (OLS): A common method used to estimate the regression coefficients (slope and intercept) by minimizing the difference between the observed values and the values predicted by the line.
+
+# Logistic Regression Overview
+
+Logistic regression helps us understand the probability of an event, like whether a user will subscribe to a newsletter, based on factors such as time spent on a webpage.
+
+Unlike linear regression, which deals with continuous data and straight lines, logistic regression handles categorical data and uses a link function to model the relationship between variables.
+
+### Comparing and Contrasting:
+
+- **Linear regression** works with continuous data (e.g., book sales), while **logistic regression** deals with categorical data (e.g., subscribing or not subscribing).
+- **Linear regression** estimates the mean of a continuous variable, while **logistic regression** models the probability of a specific outcome for a categorical variable.
+
 
 
 
