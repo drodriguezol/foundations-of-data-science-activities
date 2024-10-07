@@ -67,7 +67,9 @@
   - [Understanding Multiple Linear Regression](#understanding-multiple-linear-regression)
   - [Multiple Linear Regression Assumptions](#multiple-linear-regression-assumptions)
   - [Multicollinearity](#multicollinearity)
-
+- [Model Reliability](#model-reliability)
+- [Evaluating Model Performance](#evaluating-model-performance)
+- [Balancing Bias and Variance](#balancing-bias-and-variance)
 
 
 
@@ -688,6 +690,19 @@ Multiple linear regression builds upon the assumptions of simple linear regressi
 ### How to address it:
 - **Variable Selection**: Carefully choose a subset of predictor variables that are not highly correlated with each other. Techniques like forward selection or backward elimination can help.
 - **Advanced Techniques**: Consider methods like ridge regression, lasso regression, or principal component analysis (PCA), which can handle multicollinearity more effectively.
+
+# Model Reliability
+
+Underfitting occurs when a model fails to capture the underlying patterns in the data, often due to insufficient or irrelevant predictors, resulting in a low R-squared value. Overfitting, on the other hand, happens when a model performs well on training data but poorly on unseen data, indicating it has captured noise in addition to the signal.
+
+## Evaluating Model Performance
+
+Data scientists use holdout sampling, dividing data into training and test sets, to evaluate a model's performance on unseen data and identify overfitting. While R-squared, a goodness of fit measure, can be inflated by adding more predictors, adjusted R-squared provides a more reliable metric by penalizing the inclusion of insignificant variables.
+
+## Balancing Bias and Variance
+
+Underfitting reflects high bias, while overfitting indicates high variance. The bias-variance trade-off highlights the challenge of achieving both low bias and low variance, requiring careful consideration to minimize both underfitting and overfitting for optimal model performance.
+
 
 
 
