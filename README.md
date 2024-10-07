@@ -61,6 +61,8 @@
 - [Correlation vs. Causation](#correlation-vs-causation)
 - [Causal Claims and Randomized Controlled Experiments](#causal-claims-and-randomized-controlled-experiments)
 - [The Power of Correlation Analysis](#the-power-of-correlation-analysis)
+- [Simple Linear Regression vs. Multiple Linear Regression](#simple-linear-regression-vs-multiple-linear-regression)
+- [Understanding Multiple Linear Regression](#understanding-multiple-linear-regression)
 
 
 
@@ -650,6 +652,17 @@ The errors, represented by residuals, should follow a normal distribution.
 
 - Even without causation, **correlation analysis** reveals valuable insights, guiding data-driven decisions for optimization.
 - Two scenarios, optimizing athletic performance and improving food quality, illustrate how correlation analysis leads to practical improvements.
+
+## Simple Linear Regression vs. Multiple Linear Regression
+
+- **Simple linear regression** models the relationship between one independent variable (X) and one dependent variable (Y).
+- **Multiple linear regression** extends this concept to include two or more independent variables.
+
+## Understanding Multiple Linear Regression
+
+- The equation for **multiple linear regression** includes a coefficient (Beta) for each independent variable, allowing us to assess the individual impact of each variable on the dependent variable.
+- We can enhance multiple linear regression models by incorporating categorical variables using **one-hot encoding** and examining the combined effects of variables with **interaction terms**.
+
 
 
 
