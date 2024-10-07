@@ -32,6 +32,9 @@
 - [Discrete Probability Distributions](#discrete-probability-distributions)
 - [Continuous Probability Distributions](#continuous-probability-distributions)
 - [Z-Score](#z-score)
+- [Understanding Population and Sample](#understanding-population-and-sample)
+- [Representative Samples for Accurate Insights](#representative-samples-for-accurate-insights)
+
 
 
 
@@ -423,6 +426,18 @@ Where:
 3. **Probability Calculations**: In a normal distribution, z-scores can be used to determine probabilities and percentiles. For instance, you can use z-scores to find the likelihood that a given value falls below or above a specific threshold in a normally distributed dataset.
 
 4. **Data Interpretation**: Z-scores provide a way to interpret how far away a data point is from the mean. A positive z-score indicates the value is above the mean, while a negative z-score indicates it is below the mean.
+
+# Understanding Population and Sample
+
+A **population** in statistics refers to the entire group you want to study, while a **sample** is a smaller, representative subset of that population.
+
+Data professionals often work with samples because collecting data from an entire population can be impractical, time-consuming, and expensive.
+
+## Representative Samples for Accurate Insights
+
+A representative sample accurately reflects the characteristics of the population, ensuring that conclusions drawn from the sample are applicable to the entire population. 
+
+Non-representative samples can lead to inaccurate conclusions and predictions, highlighting the importance of using appropriate sampling methods to minimize bias.
 
 
 
