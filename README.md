@@ -63,7 +63,10 @@
 - [The Power of Correlation Analysis](#the-power-of-correlation-analysis)
 - [Simple Linear Regression vs. Multiple Linear Regression](#simple-linear-regression-vs-multiple-linear-regression)
 - [Understanding Multiple Linear Regression](#understanding-multiple-linear-regression)
-
+- [Simple Linear Regression vs. Multiple Linear Regression](#simple-linear-regression-vs-multiple-linear-regression)
+  - [Understanding Multiple Linear Regression](#understanding-multiple-linear-regression)
+  - [Multiple Linear Regression Assumptions](#multiple-linear-regression-assumptions)
+  - [Multicollinearity](#multicollinearity)
 
 
 
@@ -653,7 +656,7 @@ The errors, represented by residuals, should follow a normal distribution.
 - Even without causation, **correlation analysis** reveals valuable insights, guiding data-driven decisions for optimization.
 - Two scenarios, optimizing athletic performance and improving food quality, illustrate how correlation analysis leads to practical improvements.
 
-## Simple Linear Regression vs. Multiple Linear Regression
+# Simple Linear Regression vs. Multiple Linear Regression
 
 - **Simple linear regression** models the relationship between one independent variable (X) and one dependent variable (Y).
 - **Multiple linear regression** extends this concept to include two or more independent variables.
@@ -662,6 +665,29 @@ The errors, represented by residuals, should follow a normal distribution.
 
 - The equation for **multiple linear regression** includes a coefficient (Beta) for each independent variable, allowing us to assess the individual impact of each variable on the dependent variable.
 - We can enhance multiple linear regression models by incorporating categorical variables using **one-hot encoding** and examining the combined effects of variables with **interaction terms**.
+
+## Multiple Linear Regression Assumptions
+
+Multiple linear regression builds upon the assumptions of simple linear regression, adding one more key assumption:
+
+1. **Linearity**: Each predictor variable (X) has a linear relationship with the outcome variable (Y).
+2. **(Multivariate) Normality**: The errors (not necessarily the variables themselves) are normally distributed.
+3. **Independent Observations**: Each observation in the dataset is independent of others (no autocorrelation).
+4. **Homoscedasticity**: The variance of the errors is constant across all levels of the predictor variables.
+5. **No Multicollinearity**: No two or more independent variables (Xs) are highly correlated with each other.
+
+## Multicollinearity
+
+- **What it is**: Multicollinearity occurs when two or more predictor variables in your regression model are highly correlated. This can make it difficult to isolate the individual effect of each predictor on the outcome variable.
+- **Why it's a problem**: Multicollinearity can inflate the standard errors of your regression coefficients, making them statistically insignificant even when there might be a real relationship. It can also lead to unstable and unreliable coefficient estimates.
+
+### How to detect it:
+- **Scatterplots/Scatterplot Matrices**: Visual inspection of relationships between predictor variables.
+- **Variance Inflation Factors (VIFs)**: A numerical measure of how much the variance of a regression coefficient is inflated due to multicollinearity. VIFs of 5 or higher are often considered problematic.
+
+### How to address it:
+- **Variable Selection**: Carefully choose a subset of predictor variables that are not highly correlated with each other. Techniques like forward selection or backward elimination can help.
+- **Advanced Techniques**: Consider methods like ridge regression, lasso regression, or principal component analysis (PCA), which can handle multicollinearity more effectively.
 
 
 
