@@ -70,6 +70,11 @@
 - [Model Reliability](#model-reliability)
 - [Evaluating Model Performance](#evaluating-model-performance)
 - [Balancing Bias and Variance](#balancing-bias-and-variance)
+- [Overfitting and the Bias-Variance Tradeoff](#overfitting-and-the-bias-variance-tradeoff)
+- [Regularization Techniques](#regularization-techniques)
+  - [Lasso](#lasso)
+  - [Ridge](#ridge)
+  - [Elastic Net](#elastic-net)
 
 
 
