@@ -703,6 +703,27 @@ Data scientists use holdout sampling, dividing data into training and test sets,
 
 Underfitting reflects high bias, while overfitting indicates high variance. The bias-variance trade-off highlights the challenge of achieving both low bias and low variance, requiring careful consideration to minimize both underfitting and overfitting for optimal model performance.
 
+# Overfitting and the Bias-Variance Tradeoff
+
+Overfitting occurs when a model is too closely aligned with the training data, leading to poor performance on new data. This happens when a model captures noise rather than the underlying pattern, resulting in high accuracy on the training set but significantly lower accuracy on unseen data. The bias-variance tradeoff highlights the balance between a model's simplicity (bias) and its flexibility (variance) in minimizing errors. A model with high bias oversimplifies the data, leading to underfitting, while a model with high variance captures too much detail, leading to overfitting. Finding the right balance is crucial for creating models that generalize well to new, unseen data.
+
+## Regularization Techniques
+
+Regularization methods introduce bias to reduce variance and prevent overfitting by shrinking regression coefficients towards zero. By adding a penalty for large coefficients, regularization helps to keep the model simple and reduces the risk of fitting noise. 
+
+### Lasso
+
+Lasso (Least Absolute Shrinkage and Selection Operator) is a regularization technique that uses L1 regularization. It adds a penalty equal to the absolute value of the magnitude of coefficients. This can result in some coefficients being exactly zero, effectively performing variable selection and simplifying the model. Lasso is particularly useful when we suspect that many features are irrelevant or redundant.
+
+### Ridge
+
+Ridge regression uses L2 regularization, adding a penalty equal to the square of the magnitude of coefficients. Unlike Lasso, Ridge does not set coefficients to zero, which means all features are retained in the model. However, it shrinks the coefficients, which helps to reduce multicollinearity and improve model interpretability without eliminating predictors.
+
+### Elastic Net
+
+Elastic Net combines the penalties of both Lasso and Ridge regression, using both L1 and L2 regularization. This technique is useful in situations where there are multiple correlated predictors, allowing the model to retain relevant features while performing variable selection. Elastic Net strikes a balance between the sparsity of Lasso and the stability of Ridge, making it a versatile choice in many applications.
+
+These regularization techniques are essential tools in a data scientist's toolkit, helping to improve model performance by addressing the challenges of overfitting and ensuring that models can generalize well to new data.
 
 
 
