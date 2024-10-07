@@ -41,6 +41,10 @@
 - [Large vs. Small Sample Sizes](#large-vs-small-sample-sizes)
 - [Mathematical Linear Regression](#mathematical-linear-regression)
 - [Logistic Regression Overview](#logistic-regression-overview)
+- [Formula Review](#formula-review)
+  - [Simple Linear Regression](#simple-linear-regression)
+  - [Ordinary Least Squares (OLS)](#ordinary-least-squares-ols)
+  - [Minimizing SSR](#minimizing-ssr)
 
 
 
@@ -539,6 +543,27 @@ Unlike linear regression, which deals with continuous data and straight lines, l
 
 - **Linear regression** works with continuous data (e.g., book sales), while **logistic regression** deals with categorical data (e.g., subscribing or not subscribing).
 - **Linear regression** estimates the mean of a continuous variable, while **logistic regression** models the probability of a specific outcome for a categorical variable.
+
+
+## Formula Review
+
+**Simple linear regression** estimates the linear relationship between a continuous dependent variable and one independent variable using a line defined by:
+
+\[
+\hat{y} = \hat{\beta}_0 + \hat{\beta}_1 X
+\]
+
+**Ordinary least squares (OLS)** is a common technique for calculating the coefficients of a linear regression model by minimizing the sum of squared residuals (SSR).
+
+**Minimizing SSR:**
+
+The sum of squared residuals can be calculated using the formula:
+
+\[
+\sum_{i=1}^N (y_i - \hat{y}_i)^2
+\]
+
+To find the line of best fit, you can try different values for \(\hat{\beta}_0\) and \(\hat{\beta}_1\) and calculate the sum of squared residuals for each line.
 
 
 
