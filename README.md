@@ -35,7 +35,7 @@
 - [Understanding Population and Sample](#understanding-population-and-sample)
 - [Representative Samples for Accurate Insights](#representative-samples-for-accurate-insights)
 - [Probability Sampling Overview](#probability-sampling-overview)
-
+- [What is the Central Limit Theorem?](#what-is-the-central-limit-theorem)
 
 
 
@@ -454,6 +454,23 @@ Probability sampling relies on random selection, ensuring every member of a popu
 ## Advantages of Probability Sampling
 
 Probability sampling techniques help ensure that the sample accurately represents the population, leading to more valid and generalizable results.
+
+# What is the Central Limit Theorem?
+
+The **Central Limit Theorem (CLT)** states that as the sample size grows, the distribution of sample means starts to resemble a bell curve (normal distribution), regardless of the original population distribution. A larger sample size leads to the sample mean being closer to the actual population mean, increasing the accuracy of estimations.
+
+## Conditions for Applying the Central Limit Theorem
+
+1. The data needs to be collected randomly, ensuring every member of the population has an equal chance of selection.
+2. Each data point should be independent of others, meaning the value of one doesn't influence another.
+3. A sufficiently large sample size is crucial, with the general rule of thumb being 30 or more for normally distributed populations. However, larger sample sizes might be needed for skewed or outlier-heavy populations.
+
+## Example: Estimating Average Salary
+
+Imagine estimating the average salary in a city with 10 million professionals. Instead of surveying everyone, you take multiple random samples of 100 professionals each. The mean salary for each sample will vary slightly. However, as you collect more samples, the distribution of these sample means will begin to form a bell curve.
+
+With a large enough sample size, the mean of your sample means will closely approximate the true average salary for the entire city.
+
 
 
 
