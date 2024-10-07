@@ -45,6 +45,11 @@
   - [Simple Linear Regression](#simple-linear-regression)
   - [Ordinary Least Squares (OLS)](#ordinary-least-squares-ols)
   - [Minimizing SSR](#minimizing-ssr)
+- [Understanding Correlation](#understanding-correlation)
+  - [Correlation](#correlation)
+  - [Calculating Correlation (r)](#calculating-correlation-r)
+  - [Regression and Its Equation](#regression-and-its-equation)
+
 
 
 
@@ -564,6 +569,23 @@ $$\[
 \]$$
 
 To find the line of best fit, you can try different values for \(\hat{\beta}_0\) and \(\hat{\beta}_1\) and calculate the sum of squared residuals for each line.
+
+
+## Understanding Correlation
+
+### Correlation
+Correlation measures how two variables move together. A strong correlation implies that knowing one variable helps predict the other.  
+The correlation coefficient (r) quantifies this relationship, ranging from -1 (perfect negative correlation) to 1 (perfect positive correlation), with 0 indicating no linear correlation.
+
+### Calculating Correlation (r)
+The formula for r involves covariance and standard deviations of the variables.  
+Covariance reflects the degree to which X and Y deviate from their means together.  
+The denominator standardizes the covariance, making r a unitless measure.
+
+### Regression and Its Equation
+The regression line estimates the average Y value for each X value, minimizing error in predicting Y from X.  
+The slope of this line is calculated using r and the standard deviations of X and Y.  
+The point representing the means of X and Y always lies on the regression line.
 
 
 
