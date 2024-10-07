@@ -31,6 +31,7 @@
 - [Bayes's Theorem Overview](#bayess-theorem-overview)
 - [Discrete Probability Distributions](#discrete-probability-distributions)
 - [Continuous Probability Distributions](#continuous-probability-distributions)
+- [Z-Score](#z-score)
 
 
 
@@ -395,6 +396,33 @@ Discrete probability distributions describe the probabilities of the outcomes of
 
 - The normal distribution is frequently observed in real-world datasets, making it a valuable tool for data professionals.
 - Understanding it is crucial for advanced statistical analyses like hypothesis testing and regression analysis.
+
+# Z-Score
+
+## Definition
+
+The **z-score**, also known as the standard score, measures the number of standard deviations a data point is from the mean of a dataset. It provides a way to understand how a specific value compares to the average value in a distribution.
+
+The formula for calculating the z-score of a value \(X\) is:
+
+$$\[ 
+z = \frac{(X - \mu)}{\sigma} 
+\]$$
+
+Where:
+- $$\(X\)$$ = the value for which you are calculating the z-score.
+- $$\(\mu\)$$ = the mean of the dataset.
+- $$\(\sigma\)$$ = the standard deviation of the dataset.
+
+## Purpose of Z-Score
+
+1. **Standardization**: Z-scores standardize different datasets, making them comparable. For example, if you have scores from different tests with different scales, converting them to z-scores allows for direct comparison.
+
+2. **Identifying Outliers**: Z-scores help identify outliers in a dataset. Generally, a z-score greater than 3 or less than -3 may indicate that a value is an outlier.
+
+3. **Probability Calculations**: In a normal distribution, z-scores can be used to determine probabilities and percentiles. For instance, you can use z-scores to find the likelihood that a given value falls below or above a specific threshold in a normally distributed dataset.
+
+4. **Data Interpretation**: Z-scores provide a way to interpret how far away a data point is from the mean. A positive z-score indicates the value is above the mean, while a negative z-score indicates it is below the mean.
 
 
 
