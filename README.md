@@ -58,6 +58,9 @@
 - [Alternative Evaluation Metrics](#alternative-evaluation-metrics)
   - [MAE (Mean Absolute Error)](#mae-mean-absolute-error)
   - [AIC (Akaike Information Criterion) & BIC (Bayesian Information Criterion)](#aic-akaike-information-criterion--bic-bayesian-information-criterion)
+- [Correlation vs. Causation](#correlation-vs-causation)
+- [Causal Claims and Randomized Controlled Experiments](#causal-claims-and-randomized-controlled-experiments)
+- [The Power of Correlation Analysis](#the-power-of-correlation-analysis)
 
 
 
@@ -632,6 +635,22 @@ The errors, represented by residuals, should follow a normal distribution.
 - **MAE (Mean Absolute Error)**: Averages the absolute differences between predicted and actual values, making it less sensitive to outliers compared to MSE.
 
 - **AIC (Akaike Information Criterion) & BIC (Bayesian Information Criterion)**: Additional metrics you may encounter, providing further insights into model performance.
+
+## Correlation vs. Causation
+
+- **Positive correlation** means variables increase or decrease together, while **negative correlation** means one increases as the other decreases.
+- The **Pearson correlation coefficient**, ranging from -1 to 1, quantifies this relationship. Remember, **correlation doesn't equal causation**!
+
+## Causal Claims and Randomized Controlled Experiments
+
+- **Causation** implies a cause-and-effect relationship, demanding rigorous testing through randomized controlled experiments.
+- These experiments necessitate controlling all factors, having control and treatment groups, and ensuring observable, measurable differences.
+
+## The Power of Correlation Analysis
+
+- Even without causation, **correlation analysis** reveals valuable insights, guiding data-driven decisions for optimization.
+- Two scenarios, optimizing athletic performance and improving food quality, illustrate how correlation analysis leads to practical improvements.
+
 
 
 
