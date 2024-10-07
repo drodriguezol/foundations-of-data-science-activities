@@ -38,6 +38,7 @@
 - [What is the Central Limit Theorem?](#what-is-the-central-limit-theorem)
 - [Understanding Sampling Distribution](#understanding-sampling-distribution)
 - [Confidence Interval Interpretation](#confidence-interval-interpretation)
+- [Large vs. Small Sample Sizes](#large-vs-small-sample-sizes)
 
 
 
@@ -507,7 +508,15 @@ A 95% confidence interval means that if you repeatedly sampled the population an
 - A 95% confidence interval doesn't mean that 95% of the data values in the population fall within that interval.
 
 
+# Large vs. Small Sample Sizes
 
+For large sample sizes (30 or more), we use z-scores to calculate the margin of error due to the central limit theorem.  
+For small sample sizes (less than 30), we use the t-distribution and t-scores to account for greater uncertainty.
+
+## Constructing a Confidence Interval for a Small Sample
+
+We use the t-distribution and t-scores to calculate the margin of error.  
+The degrees of freedom for the t-distribution is calculated as the sample size minus 1.
 
 
 
