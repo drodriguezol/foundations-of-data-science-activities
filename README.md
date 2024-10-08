@@ -831,7 +831,7 @@ Data professionals use metrics such as **precision**, **recall**, and **accuracy
 
 - **Precision** measures the proportion of data points predicted as True that are actually True. For example, in email spam detection, precision would convey the proportion of emails that are actually spam out of all the emails that have been predicted as spam. 
   $$
-  \text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}
+  \text{Precision}
   $$
 
 - **Recall** measures the proportion of data points that are predicted as True, out of all the data points that are actually True. For example, in fraud detection, recall would convey the proportion of fraudulent credit card transactions that the classifier correctly identified as fraudulent.
