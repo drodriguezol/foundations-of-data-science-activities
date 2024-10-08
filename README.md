@@ -851,17 +851,19 @@ Data professionals use metrics such as **precision**, **recall**, and **accuracy
 
 An **ROC curve** helps visualize the performance of a logistic regression classifier at different classification thresholds.
 
-- **True Positive Rate (TPR)**: equivalent to Recall.
+**True Positive Rate (TPR)**: equivalent to Recall.
+
   $$
   \text{True Positive Rate} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}
   $$
 
-- **False Positive Rate (FPR)**: the ratio between the False Positives and the total count of observations that should be predicted as False.
+**False Positive Rate (FPR)**: the ratio between the False Positives and the total count of observations that should be predicted as False.
+
   $$
   \text{False Positive Rate} = \frac{\text{False Positives}}{\text{False Positives} + \text{True Negatives}}
   $$
 
-- **AUC** stands for the area under the ROC curve and provides an aggregate measure of performance across all possible classification thresholds.
+ **AUC** stands for the area under the ROC curve and provides an aggregate measure of performance across all possible classification thresholds.
 
 # Understanding the Logit Function
 
