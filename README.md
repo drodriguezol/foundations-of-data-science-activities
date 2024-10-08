@@ -809,6 +809,33 @@ The output of a logistic regression model includes:
 - **Coefficients**: These values represent the change in the log-odds of the outcome for a one-unit change in the predictor variable.
 - **Odds Ratio**: Exponentiating the coefficients gives the odds ratio, which provides a more intuitive understanding of the effect of independent variables on the outcome.
 
+# Evaluating Logistic Regression Performance
+
+Los profesionales de datos utilizan métricas como **precisión**, **recall** (sensibilidad) y **exactitud** para medir el rendimiento de sus modelos de regresión logística. Es importante evaluar el rendimiento de un modelo, ya que esto muestra cuán bien puede hacer predicciones sobre datos no vistos.
+
+## Metrics for Logistic Regression
+
+- **Precisión** mide la proporción de puntos de datos predichos como verdaderos que son realmente verdaderos. Por ejemplo, en la detección de spam en correos electrónicos, la precisión indicaría la proporción de correos que realmente son spam de todos los correos que han sido predichos como spam. 
+  $$\text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}$$
+
+- **Recall** mide la proporción de puntos de datos que se predicen como verdaderos, de todos los puntos de datos que son realmente verdaderos. Por ejemplo, en la detección de fraudes, el recall indicaría la proporción de transacciones fraudulentas que el clasificador identificó correctamente como fraudulentas.
+  $$\text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}$$
+
+- **Exactitud** mide la proporción de puntos de datos que están correctamente clasificados.
+  $$\text{Accuracy} = \frac{\text{True Positives} + \text{True Negatives}}{\text{Total Predictions}}$$
+
+## Visualizing Logistic Regression Performance
+
+Una **curva ROC** ayuda a visualizar el rendimiento de un clasificador de regresión logística en diferentes umbrales de clasificación.
+
+- **Tasa de Verdaderos Positivos (TPR)**: equivalente al Recall.
+  $$\text{True Positive Rate} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}$$
+
+- **Tasa de Falsos Positivos (FPR)**: la relación entre los Falsos Positivos y el conteo total de observaciones que deberían ser predichas como Falsas.
+  $$\text{False Positive Rate} = \frac{\text{False Positives}}{\text{False Positives} + \text{True Negatives}}$$
+
+- **AUC** significa el área bajo la curva ROC y proporciona una medida agregada de rendimiento a través de todos los posibles umbrales de clasificación.
+
 
 
 
