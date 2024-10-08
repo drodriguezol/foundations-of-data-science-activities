@@ -82,6 +82,8 @@
 - [Understanding Analysis of Variance (ANOVA)](#understanding-analysis-of-variance-anova)
   - [ANOVA: Core Concepts](#anova-core-concepts)
   - [One-Way ANOVA: A Step-by-Step Guide](#one-way-anova-a-step-by-step-guide)
+- [Understanding MANOVA](#understanding-manova)
+   - [MANOVA vs. MANCOVA](#manova-vs-mancova) 
 
 
 
@@ -764,6 +766,25 @@ One-way ANOVA is used to compare the means of one continuous dependent variable 
 3. **Calculate Mean Squares**: Divide the sum of squares by their respective degrees of freedom to obtain mean squares for between-group and within-group variations.
 4. **Compute the F-statistic**: This is the ratio of the mean square between groups to the mean square within groups.
 5. **Determine the p-value**: Compare the F-statistic to a critical value from the F-distribution to decide whether to reject the null hypothesis.
+
+# Understanding MANOVA
+
+**MANOVA** (Multivariate Analysis of Variance) lets you investigate how two or more continuous outcome variables differ based on one or two categorical independent variables. For example, you can use MANOVA to examine if book genre (categorical independent variable) influences both the number of books sold and profits (continuous outcome variables).
+
+## Exploring MANCOVA
+
+**MANCOVA** (Multivariate Analysis of Covariance) builds upon MANOVA by allowing you to control for additional variables (covariates) that might influence the relationship between your independent and dependent variables. For instance, using MANCOVA, you can analyze the relationship between book genre, book sales, and profits while controlling for the author's popularity on social media.
+
+## Building Your Statistical Toolkit
+
+As you delve deeper into data analysis, you'll encounter more complex tests and models. Recognizing the connections and applications of these tools is crucial for your growth as a data professional. Keep exploring and expanding your statistical toolkit!
+
+## MANOVA vs. MANCOVA
+
+- **MANOVA**: Evaluates the effect of one or more categorical independent variables on multiple continuous dependent variables.
+- **MANCOVA**: Extends MANOVA by controlling for covariates that could affect the dependent variables, offering a more nuanced analysis when additional variables need to be accounted for.
+
+
 
 
 
