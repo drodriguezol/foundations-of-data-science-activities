@@ -85,6 +85,16 @@
 - [Understanding MANOVA](#understanding-manova)
    - [MANOVA vs. MANCOVA](#manova-vs-mancova) 
 - [Understanding Logistic Regression](#understanding-logistic-regression)
+- [Evaluating Logistic Regression Performance](#evaluating-logistic-regression-performance)
+  - [Metrics for Logistic Regression](#metrics-for-logistic-regression)
+    - [Precisión](#precisión)
+    - [Recall](#recall)
+    - [Exactitud](#exactitud)
+  - [Visualizing Logistic Regression Performance](#visualizing-logistic-regression-performance)
+    - [ROC Curve](#roc-curve)
+    - [Tasa de Verdaderos Positivos (TPR)](#tasa-de-verdaderos-positivos-tpr)
+    - [Tasa de Falsos Positivos (FPR)](#tasa-de-falsos-positivos-fpr)
+    - [AUC](#auc)
 
 
 
