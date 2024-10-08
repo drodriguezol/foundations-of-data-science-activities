@@ -79,6 +79,9 @@
   - [Types of Chi-Squared Tests](#types-of-chi-squared-tests)
     - [Chi-Squared Goodness of Fit Test](#chi-squared-goodness-of-fit-test)
     - [Chi-Squared Test for Independence](#chi-squared-test-for-independence)
+- [Understanding Analysis of Variance (ANOVA)](#understanding-analysis-of-variance-anova)
+  - [ANOVA: Core Concepts](#anova-core-concepts)
+  - [One-Way ANOVA: A Step-by-Step Guide](#one-way-anova-a-step-by-step-guide)
 
 
 
@@ -743,6 +746,25 @@ Chi-squared tests help determine if observed data aligns with expected distribut
 - **Chi-Squared Goodness of Fit Test**: This test assesses whether an observed categorical variable, with multiple possible levels, aligns with an anticipated distribution. It compares the observed frequencies of categories to the expected frequencies under the null hypothesis.
 
 - **Chi-Squared Test for Independence**: This test investigates whether two categorical variables are related or independent of each other. It evaluates the frequencies of observations in a contingency table to determine if the variables are associated or if their distributions are independent.
+
+# Understanding Analysis of Variance (ANOVA)
+
+ANOVA is a statistical technique used to determine if there are significant differences between the means of three or more groups.
+
+## ANOVA: Core Concepts
+
+ANOVA helps determine if differences in group means are statistically significant or due to random chance by comparing the variability between groups to the variability within groups. The **F-statistic**, a ratio calculated from the variation between and within groups, helps determine the significance of the differences.
+
+## One-Way ANOVA: A Step-by-Step Guide
+
+One-way ANOVA is used to compare the means of one continuous dependent variable based on three or more groups of one categorical variable. The process involves five steps:
+
+1. **Calculate Group Means and the Grand Mean**: Determine the mean for each group and the overall mean across all groups.
+2. **Calculate the Sum of Squares Between and Within Groups**: This measures the variability attributed to the different groups and the variability within each group.
+3. **Calculate Mean Squares**: Divide the sum of squares by their respective degrees of freedom to obtain mean squares for between-group and within-group variations.
+4. **Compute the F-statistic**: This is the ratio of the mean square between groups to the mean square within groups.
+5. **Determine the p-value**: Compare the F-statistic to a critical value from the F-distribution to decide whether to reject the null hypothesis.
+
 
 
 
