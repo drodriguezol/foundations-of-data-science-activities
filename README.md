@@ -87,14 +87,17 @@
 - [Understanding Logistic Regression](#understanding-logistic-regression)
 - [Evaluating Logistic Regression Performance](#evaluating-logistic-regression-performance)
   - [Metrics for Logistic Regression](#metrics-for-logistic-regression)
-    - [Precisión](#precisión)
+    - [Precision](#precision)
     - [Recall](#recall)
-    - [Exactitud](#exactitud)
+    - [Accuracy](#accuracy)
   - [Visualizing Logistic Regression Performance](#visualizing-logistic-regression-performance)
     - [ROC Curve](#roc-curve)
-    - [Tasa de Verdaderos Positivos (TPR)](#tasa-de-verdaderos-positivos-tpr)
-    - [Tasa de Falsos Positivos (FPR)](#tasa-de-falsos-positivos-fpr)
+    - [True Positive Rate (TPR)](#true-positive-rate-tpr)
+    - [False Positive Rate (FPR)](#false-positive-rate-fpr)
     - [AUC](#auc)
+  - [Understanding the Logit Function](#understanding-the-logit-function)
+    - [The Formula](#the-formula)
+    - [Why It's Useful](#why-its-useful)
 
 
 
@@ -819,32 +822,66 @@ The output of a logistic regression model includes:
 - **Coefficients**: These values represent the change in the log-odds of the outcome for a one-unit change in the predictor variable.
 - **Odds Ratio**: Exponentiating the coefficients gives the odds ratio, which provides a more intuitive understanding of the effect of independent variables on the outcome.
 
+
 # Evaluating Logistic Regression Performance
 
-Los profesionales de datos utilizan métricas como **precisión**, **recall** (sensibilidad) y **exactitud** para medir el rendimiento de sus modelos de regresión logística. Es importante evaluar el rendimiento de un modelo, ya que esto muestra cuán bien puede hacer predicciones sobre datos no vistos.
+Data professionals use metrics such as **precision**, **recall**, and **accuracy** to gauge the performance of their logistic regression models. It is important to evaluate the performance of a model, as this shows how well it can make predictions on unseen data.
 
 ## Metrics for Logistic Regression
 
-- **Precisión** mide la proporción de puntos de datos predichos como verdaderos que son realmente verdaderos. Por ejemplo, en la detección de spam en correos electrónicos, la precisión indicaría la proporción de correos que realmente son spam de todos los correos que han sido predichos como spam. 
-  $$\text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}$$
+- **Precision** measures the proportion of data points predicted as True that are actually True. For example, in email spam detection, precision would convey the proportion of emails that are actually spam out of all the emails that have been predicted as spam. 
+  $$
+  \text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}
+  $$
 
-- **Recall** mide la proporción de puntos de datos que se predicen como verdaderos, de todos los puntos de datos que son realmente verdaderos. Por ejemplo, en la detección de fraudes, el recall indicaría la proporción de transacciones fraudulentas que el clasificador identificó correctamente como fraudulentas.
-  $$\text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}$$
+- **Recall** measures the proportion of data points that are predicted as True, out of all the data points that are actually True. For example, in fraud detection, recall would convey the proportion of fraudulent credit card transactions that the classifier correctly identified as fraudulent.
+  $$
+  \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}
+  $$
 
-- **Exactitud** mide la proporción de puntos de datos que están correctamente clasificados.
-  $$\text{Accuracy} = \frac{\text{True Positives} + \text{True Negatives}}{\text{Total Predictions}}$$
+- **Accuracy** measures the proportion of data points that are correctly classified.
+  $$
+  \text{Accuracy} = \frac{\text{True Positives} + \text{True Negatives}}{\text{Total Predictions}}
+  $$
 
 ## Visualizing Logistic Regression Performance
 
-Una **curva ROC** ayuda a visualizar el rendimiento de un clasificador de regresión logística en diferentes umbrales de clasificación.
+An **ROC curve** helps visualize the performance of a logistic regression classifier at different classification thresholds.
 
-- **Tasa de Verdaderos Positivos (TPR)**: equivalente al Recall.
-  $$\text{True Positive Rate} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}$$
+- **True Positive Rate (TPR)**: equivalent to Recall.
+  $$
+  \text{True Positive Rate} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}
+  $$
 
-- **Tasa de Falsos Positivos (FPR)**: la relación entre los Falsos Positivos y el conteo total de observaciones que deberían ser predichas como Falsas.
-  $$\text{False Positive Rate} = \frac{\text{False Positives}}{\text{False Positives} + \text{True Negatives}}$$
+- **False Positive Rate (FPR)**: the ratio between the False Positives and the total count of observations that should be predicted as False.
+  $$
+  \text{False Positive Rate} = \frac{\text{False Positives}}{\text{False Positives} + \text{True Negatives}}
+  $$
 
-- **AUC** significa el área bajo la curva ROC y proporciona una medida agregada de rendimiento a través de todos los posibles umbrales de clasificación.
+- **AUC** stands for the area under the ROC curve and provides an aggregate measure of performance across all possible classification thresholds.
+
+# Understanding the Logit Function
+
+The logit function takes a probability (between 0 and 1) and transforms it into a value that can range from negative to positive infinity. This transformation allows us to model the relationship between our independent variables and the probability of the event we're interested in.
+
+## The Formula
+
+The logit function is defined as:
+
+$$
+\text{logit}(p) = \log\left(\frac{p}{1 - p}\right)
+$$
+
+Where:
+
+- \( p \) is the probability of the event occurring.
+- \( \log \) is the natural logarithm.
+
+## Why It's Useful
+
+The logit function helps us model situations where the relationship between the independent variables and the probability of the event is not linear. It's particularly useful for binary classification problems, where we're trying to predict whether something belongs to one of two categories.
+
+
 
 
 
