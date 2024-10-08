@@ -84,8 +84,7 @@
   - [One-Way ANOVA: A Step-by-Step Guide](#one-way-anova-a-step-by-step-guide)
 - [Understanding MANOVA](#understanding-manova)
    - [MANOVA vs. MANCOVA](#manova-vs-mancova) 
-
--[Understanding Logistic Regression](#understanding-logistic-regression)
+- [Understanding Logistic Regression](#understanding-logistic-regression)
 
 
 
