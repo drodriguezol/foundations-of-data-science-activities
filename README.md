@@ -99,8 +99,8 @@
     - [The Formula](#the-formula)
     - [Why It's Useful](#why-its-useful)
  - [Understanding Machine Learning](#understanding-machine-learning)
-  - [Supervised vs. Unsupervised Learning](#supervised-vs-unsupervised-learning)
-  - [Machine Learning in Product Recommendations and Chatbots](#machine-learning-in-product-recommendations-and-chatbots)
+   - [Supervised vs. Unsupervised Learning](#supervised-vs-unsupervised-learning)
+   - [Machine Learning in Product Recommendations and Chatbots](#machine-learning-in-product-recommendations-and-chatbots)
 
 
 # Data Organization and Structure
