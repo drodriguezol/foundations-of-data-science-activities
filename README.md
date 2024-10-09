@@ -103,6 +103,7 @@
    - [Machine Learning in Product Recommendations and Chatbots](#machine-learning-in-product-recommendations-and-chatbots)
 - [What is Class Imbalance?](#what-is-class-imbalance)
     - [How to Address Class Imbalance](#how-to-address-class-imbalance)
+-[Feature engineering](#feature-engineering)
 
 
 # Data Organization and Structure
@@ -922,6 +923,9 @@ This imbalance can be problematic, as it can lead to biased models that favor th
 - **Downsampling**: This technique involves reducing the number of instances in the majority class to create a more balanced dataset. It's generally suitable for large datasets.
   
 - **Upsampling**: This method increases the number of instances in the minority class, either by duplicating existing instances or generating synthetic ones. It's often used when dealing with smaller datasets.
+
+# Feature engineering
+Feature engineering is the process of transforming raw data into meaningful features that can improve the performance of machine learning models. It involves creating new input variables based on existing data, selecting the most relevant features, and encoding categorical variables. The goal is to enhance the predictive power of the model by providing it with better information.
 
 
 
