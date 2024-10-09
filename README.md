@@ -1034,7 +1034,7 @@ At each decision node, the algorithm seeks to minimize "impurity," aiming to cre
 (Is feature Y < threshold?)    (Is feature Z > threshold?)
    /         \                      /       \
 [Leaf]    [Leaf]              [Leaf]    [Leaf]
-
+```
 
 
 
