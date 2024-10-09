@@ -104,8 +104,7 @@
 - [What is Class Imbalance?](#what-is-class-imbalance)
     - [How to Address Class Imbalance](#how-to-address-class-imbalance)
 - [Feature engineering](#feature-engineering)
-
-
+- [Understanding Naive Bayes](#understanding-naive-bayes)
 # Data Organization and Structure
 
 A **database (DB) file** is a structured system for storing data, typically in tables, indexes, or fields that allow for efficient querying and retrieval. In contrast, a **CSV (Comma Separated Values)** file is a simpler, text-based format where data is stored in plain text, making it easy to read and exchange between different systems, but lacking the complexity and capabilities of a database.
@@ -926,6 +925,24 @@ This imbalance can be problematic, as it can lead to biased models that favor th
 
 # Feature engineering
 Feature engineering is the process of transforming raw data into meaningful features that can improve the performance of machine learning models. It involves creating new input variables based on existing data, selecting the most relevant features, and encoding categorical variables. The goal is to enhance the predictive power of the model by providing it with better information.
+
+# Understanding Naive Bayes
+
+Naive Bayes leverages **Bayes' Theorem** to calculate the probability of an outcome (class) based on the values of predictor variables.
+
+## Bayes’ Theorem
+$$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$
+
+Despite its simplicity, Naive Bayes can be surprisingly effective, often outperforming more complex models in certain scenarios.
+
+## Assumptions and Limitations
+
+1. **Conditional Independence**: Naive Bayes assumes that the predictor variables are conditionally independent. This means the influence of one predictor on the outcome is independent of others.
+   - Conditional Independence Formula: 
+     $$P(B|C, A) = P(B|A)$$
+
+2. **Equal Contribution**: It is assumed that all predictor variables contribute equally to the model's prediction.
+
 
 
 
