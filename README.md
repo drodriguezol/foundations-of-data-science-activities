@@ -1022,6 +1022,19 @@ At each decision node, the algorithm seeks to minimize "impurity," aiming to cre
 - **Disadvantages**:
   - Computationally expensive for large datasets.
   - Sensitive to small changes in data, leading to overfitting.
+ 
+```plaintext
+          [Root Node]
+              |
+         Decision 1: (Is feature X > threshold?)
+          /                        \
+     [Yes]                         [No]
+      |                               |
+   Decision 2:                   Decision 3:
+(Is feature Y < threshold?)    (Is feature Z > threshold?)
+   /         \                      /       \
+[Leaf]    [Leaf]              [Leaf]    [Leaf]
+
 
 
 
