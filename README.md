@@ -101,6 +101,8 @@
  - [Understanding Machine Learning](#understanding-machine-learning)
    - [Supervised vs. Unsupervised Learning](#supervised-vs-unsupervised-learning)
    - [Machine Learning in Product Recommendations and Chatbots](#machine-learning-in-product-recommendations-and-chatbots)
+- [What is Class Imbalance?](#what-is-class-imbalance)
+    - [How to Address Class Imbalance](#how-to-address-class-imbalance)
 
 
 # Data Organization and Structure
@@ -908,6 +910,18 @@ We delve into two primary types of machine learning: **supervised** and **unsupe
 - Analysis of current sales data and customer trends is critical in selecting the products featured in product recommendations. 
 
 - Chatbots enabled by machine learning could also be implemented to assist with other time-consuming tasks, such as the customer education aspects of customer acquisition. 
+
+
+# What is Class Imbalance?
+
+Class imbalance occurs when the distribution of classes in your target variable is uneven, meaning one class (majority class) appears far more often than another (minority class).  
+This imbalance can be problematic, as it can lead to biased models that favor the majority class and struggle to accurately predict the minority class.
+
+## How to Address Class Imbalance
+
+- **Downsampling**: This technique involves reducing the number of instances in the majority class to create a more balanced dataset. It's generally suitable for large datasets.
+  
+- **Upsampling**: This method increases the number of instances in the minority class, either by duplicating existing instances or generating synthetic ones. It's often used when dealing with smaller datasets.
 
 
 
