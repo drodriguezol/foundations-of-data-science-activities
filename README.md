@@ -110,6 +110,9 @@
     - [Additional Metrics and Considerations](#additional-metrics-and-considerations)
   
 - [Understanding K-means](#understanding-k-means)
+- [Evaluating Clustering Models](#evaluating-clustering-models)
+    - [Inertia and Silhouette Score](#inertia-and-silhouette-score)
+
 
 # Data Organization and Structure
 
@@ -983,6 +986,16 @@ K-means is a partitioning algorithm where each data point must be assigned to a 
 
 - Starting centroids at different positions helps to avoid poor clustering caused by local minima, ensuring that clusters are well-separated and meaningful.
 - Multiple model runs with varying initializations help in finding the most sensible clustering scheme for the given data.
+
+# Evaluating Clustering Models
+
+Unlike supervised learning, you can't evaluate unsupervised learning models as "correct" or "incorrect" because there's no target variable to predict. Instead, metrics like inertia and silhouette scores help determine how well the model identifies underlying structures in the data by grouping similar observations together.
+
+## Inertia and Silhouette Score
+
+- **Inertia** measures how compact clusters are. Lower inertia generally indicates better-defined clusters. The elbow method helps find the optimal number of clusters by plotting inertia against different values of k.
+- **Silhouette score** considers both the distance between points within a cluster and the distance between different clusters. A higher silhouette score suggests better-defined clusters with clear separation.
+
 
 
 
