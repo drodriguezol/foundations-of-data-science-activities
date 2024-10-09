@@ -108,7 +108,8 @@
 - [Why Classification Model Evaluation Matters](#why-classification-model-evaluation-matters)
     - [Key Metrics to Evaluate Your Model](#key-metrics-to-evaluate-your-model)
     - [Additional Metrics and Considerations](#additional-metrics-and-considerations)
--[Understanding K-means](#understanding-k-means)
+  
+- [Understanding K-means](#understanding-k-means)
 
 # Data Organization and Structure
 
