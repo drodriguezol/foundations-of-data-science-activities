@@ -1085,6 +1085,11 @@ Key hyperparameters to tune in random forests include:
 - `min_samples_split`: Minimum number of samples required to split a node.
 - `max_depth`: Maximum depth of the individual trees to prevent overfitting
 
+## Benefits of Bagging
+
+- **Reduces Variance**: By combining predictions from multiple models trained on different subsets of data, bagging helps to reduce the variance and overfitting that can occur with individual models.
+- **Improved Accuracy**: Bagging often leads to more accurate predictions compared to single models, as demonstrated by the example comparing a single decision tree to an ensemble of decision trees.
+
 
 
 
