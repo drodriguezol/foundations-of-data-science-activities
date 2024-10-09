@@ -103,7 +103,7 @@
    - [Machine Learning in Product Recommendations and Chatbots](#machine-learning-in-product-recommendations-and-chatbots)
 - [What is Class Imbalance?](#what-is-class-imbalance)
     - [How to Address Class Imbalance](#how-to-address-class-imbalance)
--[Feature engineering](#feature-engineering)
+- [Feature engineering](#feature-engineering)
 
 
 # Data Organization and Structure
