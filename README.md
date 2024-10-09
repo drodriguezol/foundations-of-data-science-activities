@@ -121,6 +121,13 @@
     - [Random Forests](#random-forests)
     - [Advantages of Bagging](#advantages-of-bagging)
     - [Random Forest Hyperparameters](#random-forest-hyperparameters)
+- [Validation Techniques](#validation-techniques)
+  - [Holdout Validation](#holdout-validation)
+  - [Cross-Validation](#cross-validation)
+- [Hyperparameter Tuning and Model Selection](#hyperparameter-tuning-and-model-selection)
+  - [GridSearchCV](#gridsearchcv)
+  - [Champion Model Selection](#champion-model-selection)
+
 # Data Organization and Structure
 
 A **database (DB) file** is a structured system for storing data, typically in tables, indexes, or fields that allow for efficient querying and retrieval. In contrast, a **CSV (Comma Separated Values)** file is a simpler, text-based format where data is stored in plain text, making it easy to read and exchange between different systems, but lacking the complexity and capabilities of a database.
