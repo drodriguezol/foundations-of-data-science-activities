@@ -114,6 +114,9 @@
     - [Inertia and Silhouette Score](#inertia-and-silhouette-score)
 - [Decision Trees: A Powerful Tool](#decision-trees-a-powerful-tool)
 
+- [Hyperparameter Tuning](#hyperparameter-tuning)
+    - [Important Hyperparameters for Decision Trees](#important-hyperparameters-for-decision-trees)
+- [Model Validation Techniques](#model-validation-techniques)
 
 # Data Organization and Structure
 
@@ -1035,7 +1038,27 @@ At each decision node, the algorithm seeks to minimize "impurity," aiming to cre
    /         \                      /       \
 [Leaf]    [Leaf]              [Leaf]    [Leaf]
 ```
+## Hyperparameter Tuning
 
+Hyperparameters are settings that can be adjusted before training a model to improve its performance. Tuning these parameters helps optimize the model for better accuracy and efficiency.
+
+### Important Hyperparameters for Decision Trees
+
+- **Max Depth**: Limits the depth of the decision tree, preventing overfitting and reducing computational complexity.
+- **Min Samples Leaf**: Specifies the minimum number of samples required in a leaf node, influencing how the tree splits data.
+- **Min Samples Split**: The minimum number of samples that a node must have to split into more nodes.
+
+
+# Model Validation Techniques
+
+## Validation Sets
+Validation sets involve creating a separate partition of your data specifically for comparing different models, ensuring the objectivity of your test data. This method is particularly suitable for large datasets.
+
+## Cross-Validation
+Cross-validation is a more rigorous approach that splits the training data into multiple folds, training the model on a subset and validating on the remaining fold. This technique maximizes data usage and is ideal for smaller datasets.
+
+## Choosing the Right Model
+Model selection goes beyond just validation scores. Factors like explainability, complexity, resilience, performance on unseen data, computational cost, and latency should also be considered. The final model evaluation happens with the test data, providing an estimate of real-world performance. Remember, any model adjustments based on test data results compromise the objectivity of your evaluation.
 
 
 
