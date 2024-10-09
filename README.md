@@ -117,7 +117,10 @@
 - [Hyperparameter Tuning](#hyperparameter-tuning)
     - [Important Hyperparameters for Decision Trees](#important-hyperparameters-for-decision-trees)
 - [Model Validation Techniques](#model-validation-techniques)
-
+- [Introduction to Bagging](#introduction-to-bagging)
+    - [Random Forests](#random-forests)
+    - [Advantages of Bagging](#advantages-of-bagging)
+    - [Random Forest Hyperparameters](#random-forest-hyperparameters)
 # Data Organization and Structure
 
 A **database (DB) file** is a structured system for storing data, typically in tables, indexes, or fields that allow for efficient querying and retrieval. In contrast, a **CSV (Comma Separated Values)** file is a simpler, text-based format where data is stored in plain text, making it easy to read and exchange between different systems, but lacking the complexity and capabilities of a database.
@@ -1059,6 +1062,28 @@ Cross-validation is a more rigorous approach that splits the training data into 
 
 ## Choosing the Right Model
 Model selection goes beyond just validation scores. Factors like explainability, complexity, resilience, performance on unseen data, computational cost, and latency should also be considered. The final model evaluation happens with the test data, providing an estimate of real-world performance. Remember, any model adjustments based on test data results compromise the objectivity of your evaluation.
+
+## Introduction to Bagging
+
+Bagging (bootstrap aggregating) is a technique used in ensemble learning to create multiple base learners, each trained on a unique random subset of the training data. This method helps to reduce correlation between errors from different models, resulting in stronger learners and better overall predictions.
+
+## Random Forests
+
+A random forest is a specific type of ensemble learning that uses multiple decision trees as base learners, each trained on bootstrapped data. Random forests further enhance diversity among base learners by randomly selecting a subset of features for each tree, leading to more robust and accurate predictions.
+
+## Advantages of Bagging
+
+- Reduces overfitting by averaging predictions.
+- Improves model stability and performance.
+- Helps in reducing variance of models.
+
+## Random Forest Hyperparameters
+
+Key hyperparameters to tune in random forests include:
+- `n_estimators`: Number of trees in the forest.
+- `max_features`: Number of features considered for splitting at each node.
+- `min_samples_split`: Minimum number of samples required to split a node.
+- `max_depth`: Maximum depth of the individual trees to prevent overfitting
 
 
 
