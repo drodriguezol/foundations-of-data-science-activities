@@ -108,6 +108,7 @@
 - [Why Classification Model Evaluation Matters](#why-classification-model-evaluation-matters)
     - [Key Metrics to Evaluate Your Model](#key-metrics-to-evaluate-your-model)
     - [Additional Metrics and Considerations](#additional-metrics-and-considerations)
+-[Understanding K-means](#understanding-kmeans)
 
 # Data Organization and Structure
 
@@ -967,6 +968,21 @@ Unlike linear regression models that predict continuous values, classification m
 ### Additional Metrics and Considerations
 
 - **Confusion Matrix**: Gives a detailed breakdown of true positives, true negatives, false positives, and false negatives, helping you understand where your model is making errors.
+
+## Understanding K-means
+
+K-means is a partitioning algorithm where each data point must be assigned to a cluster, meaning no outliers are left unassigned. The algorithm iteratively assigns data points to the nearest centroid (cluster center) and recalculates centroid positions until convergence is reached.
+
+### Steps in K-means Clustering
+
+1. **Choosing the number of clusters (K)**: This is a key decision, often determined by the problem context or through experimentation.
+2. **Initial centroid placement**: Initial centroid placement can impact clustering results, so running the model with different starting positions is crucial to avoid suboptimal solutions.
+
+### Importance of Centroid Initialization
+
+- Starting centroids at different positions helps to avoid poor clustering caused by local minima, ensuring that clusters are well-separated and meaningful.
+- Multiple model runs with varying initializations help in finding the most sensible clustering scheme for the given data.
+
 
 
 
