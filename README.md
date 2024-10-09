@@ -1090,6 +1090,23 @@ Key hyperparameters to tune in random forests include:
 - **Reduces Variance**: By combining predictions from multiple models trained on different subsets of data, bagging helps to reduce the variance and overfitting that can occur with individual models.
 - **Improved Accuracy**: Bagging often leads to more accurate predictions compared to single models, as demonstrated by the example comparing a single decision tree to an ensemble of decision trees.
 
+# Validation Techniques
+
+## Holdout Validation
+Holdout validation involves splitting data into training and testing sets, with the testing set used to evaluate the model's performance on unseen data.
+
+## Cross-Validation
+Cross-validation is a more robust technique where the data is divided into multiple folds, with each fold serving as the validation set while the model is trained on the remaining folds.
+
+# Hyperparameter Tuning and Model Selection
+
+## GridSearchCV
+GridSearchCV is a useful tool for both cross-validation and hyperparameter tuning, allowing you to systematically search through different hyperparameter combinations to find the best performing model.
+
+## Champion Model Selection
+After tuning hyperparameters, a separate validation set can be used to compare the performance of different model architectures and select the best performing model (the champion model).
+
+
 
 
 
