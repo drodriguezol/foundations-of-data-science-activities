@@ -969,7 +969,7 @@ Unlike linear regression models that predict continuous values, classification m
 
 - **Confusion Matrix**: Gives a detailed breakdown of true positives, true negatives, false positives, and false negatives, helping you understand where your model is making errors.
 
-## Understanding K-means
+## Understanding K means
 
 K-means is a partitioning algorithm where each data point must be assigned to a cluster, meaning no outliers are left unassigned. The algorithm iteratively assigns data points to the nearest centroid (cluster center) and recalculates centroid positions until convergence is reached.
 
