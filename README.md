@@ -112,7 +112,7 @@
 - [Understanding K-means](#understanding-k-means)
 - [Evaluating Clustering Models](#evaluating-clustering-models)
     - [Inertia and Silhouette Score](#inertia-and-silhouette-score)
- [Decision Trees: A Powerful Tool](#decision-trees-a-powerful-tool)
+- [Decision Trees: A Powerful Tool](#decision-trees-a-powerful-tool)
 
 
 # Data Organization and Structure
